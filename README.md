@@ -9,3 +9,6 @@ To install the required packages.
 
 ### `npm start`
 To run the project, then open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+<b>Note</b>
+New options soon.
