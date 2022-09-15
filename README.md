@@ -1,6 +1,6 @@
 # Personal Portfolio
 This is my personal portfolio page created in React and TypeScript
-### Website: https://logiz.net
+### Website: https://sudeepdev.software
 
 ## To install and run it:
 
