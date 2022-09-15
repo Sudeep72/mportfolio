@@ -82,7 +82,7 @@ const Projects = (props: any, ref: any) => {
           <Tilt {...config}>
             <Project
               target="_blank"
-              href="https://weather.sudeepdev.works"
+              href="https://weather.sudeepdev.software"
             >
               <ProjectPadding>
                 <ProjectTop>
