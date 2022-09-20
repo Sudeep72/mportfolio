@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 import Stars from "./components/Stars";
 import BackgroundGlow from "./components/BackgroundGlow";
 import Cursor from "./components/cursor";
-//import About from "./sections/About";
+import About from "./sections/About";
 
 export default function App() {
   const AboveTheFoldRef = useRef<HTMLDivElement>();
@@ -45,7 +45,7 @@ export default function App() {
       <Page>
         
         <AboveTheFold ref={AboveTheFoldRef} />
-        {/*<About ref={AboutRef} />*/}
+        <About ref={AboutRef} />
         <Work ref={WorkRef} />
         <Projects ref={ProjectsRef} />
         <Contact ref={ContactRef} />

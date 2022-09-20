@@ -19,7 +19,7 @@ interface ResponsiveMenuProps {
   open: boolean;
 }
 
-const Header: FC<Props> = ({ AboveTheFoldRef, WorkRef, ProjectsRef, ContactRef }) => {
+const Header: FC<Props> = ({ AboveTheFoldRef, AboutRef, WorkRef, ProjectsRef, ContactRef }) => {
   const [buttonState, setButtonState] = useState(false);
   const [scrollTopOffset, setScrollTopOffset] = useState(false);
   
@@ -67,7 +67,7 @@ const Header: FC<Props> = ({ AboveTheFoldRef, WorkRef, ProjectsRef, ContactRef }
 
         <Anime delay={(el: Element, index: number) => 900} {...config}>
           <Menu>
-          <Link onClick={() => scrollTo(AboveTheFoldRef.current)}>Home</Link>
+          <Link onClick={() => scrollTo(AboutRef.current)}>About</Link>
             <Link onClick={() => scrollTo(WorkRef.current)}>Work</Link>
             <Link onClick={() => scrollTo(ProjectsRef.current)}>
               Projects <Highlight>&</Highlight> Concepts
@@ -86,8 +86,8 @@ const Header: FC<Props> = ({ AboveTheFoldRef, WorkRef, ProjectsRef, ContactRef }
             </ResponsiveMenuIcon>
 
             <Links>
-            <Link onClick={() => responsiveScrollTo(AboveTheFoldRef.current)}>
-                Home
+            <Link onClick={() => responsiveScrollTo(AboutRef.current)}>
+                About
                 </Link>
               <Link onClick={() => responsiveScrollTo(WorkRef.current)}>
                 Work
